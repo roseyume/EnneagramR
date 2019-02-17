@@ -36,5 +36,7 @@ public class Dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // needs to import a users friends and displays them on the line below in an infinite scroll
     }
 }
