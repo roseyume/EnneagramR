@@ -5,11 +5,17 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.RadioButton;
+import android.widget.ImageView;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class createScreen2 extends AppCompatActivity {
 
     private Spinner genderChoices, meyerChoices, enneagramChoices;
     private RadioButton meyerBriggs,enneagram;
+    private ImageView profilePhoto;
+    private Button uploadButton;
+    private TextView profileName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +42,12 @@ public class createScreen2 extends AppCompatActivity {
 
         meyerBriggs = (RadioButton) findViewById(R.id.meyer_Briggs);
         enneagram = (RadioButton) findViewById(R.id.enneagram);
+        profilePhoto = (ImageView) findViewById(R.id.profilePhoto);
+        uploadButton = (Button) findViewById(R.id.uploadButton);
+        profileName = (TextView) findViewById(R.id.profileName);
+
+        //get profile name from database
+        //profileName.setText();
 
     }
 
