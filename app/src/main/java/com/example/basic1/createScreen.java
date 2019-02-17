@@ -41,7 +41,7 @@ public class createScreen extends AppCompatActivity {
                 //if passwords are not the same
                 if(!(Password.getText().toString().equals(PasswordAttempt.getText().toString())))
                 {
-                    screenError.setText(Password.getText().toString()+" "+PasswordAttempt.getText().toString());
+                    screenError.setText("Password does not match");
                 }
                 else
                 {

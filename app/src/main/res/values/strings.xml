@@ -8,4 +8,16 @@
         <item>Prefer not oto say</item>
     </string-array>
 
+    <string-array name="enneagrams">
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+    </string-array>
+
+    <string-array name="meyerBriggs">
+        <item>INFJ</item>
+        <item>INTJ</item>
+        <item>ENFJ</item>
+    </string-array>
+
 </resources>
