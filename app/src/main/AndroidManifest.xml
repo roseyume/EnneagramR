@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FindAFriend"></activity>
+        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".FindAFriend" />
         <activity android:name=".createScreen2" />
         <activity android:name=".createScreen" />
         <activity android:name=".enterScreen">
