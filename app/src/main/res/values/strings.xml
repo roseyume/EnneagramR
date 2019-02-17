@@ -4,7 +4,8 @@
     <string-array name="genders">
         <item>Male</item>
         <item>Female</item>
-        <item>Other/Prefer not to say</item>
+        <item>Other</item>
+        <item>Prefer not oto say</item>
     </string-array>
 
 </resources>
